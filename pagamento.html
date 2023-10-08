@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+</head>
+<style>
+.pagamento {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 200px;
+    margin-top: 20px;
+}
+h1 {
+    color: blue;
+}
+.pix, .cartao {
+    border: 1px solid black;
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 30px; 
+}
+p {
+    color: blue;
+}
+.input {
+    width: 50%;
+    color: black;
+    height: 40px;
+}
+.inputs {
+    width: 70px;
+    height: 40px;
+}
+footer {
+    width: 100%;
+    height: 200px;
+    background: rgb(68, 66, 66);
+    text-align: center;
+    margin-bottom: 15px;
+}
+h4, h5 {
+    color: white;
+    font-size: 25px;
+}
+a {
+    text-decoration: none;
+    background: rgb(44, 110, 155);
+    color: aliceblue;
+    font-size: 30px;
+    padding: 10px;
+}
+a:hover {
+    background: rgb(110, 112, 107);
+}
+@media (max-width: 600px) {
+    a {
+        font-size: 20px;
+    }
+    .cartao {
+    height: 430px;
+}
+.pix {
+    height: 350px;
+}
+}
+</style>
+<body>
+    <div class="pagamento">
+        <a href="projetos.html">Voltar no início</a>
+        <h1>Pagamento com PIX, CARTÃO DE DÉBITO OU CRÉDITO</h1>
+        <div class="pix">
+            <h2>Pagamento com Pix</h2>
+            <h2>Chave aleatória</h2>
+            <h3>Insira os dados e o valor da compra corretamente</h3>
+            <h3>Copie e cole a chave</h3>
+            <p>d32980wicjfny3478t5hubhjacghgchsgfyud</p>
+        </div>
+        <div class="cartao">
+        <h1>Pagamento Com Cartão de Débito ou Crédito</h1>
+        <form action="">
+            <h2>Insira o Número do seu Cartão</h2>
+            <input class="input" type="text" placeholder="Insira somente números">
+            <h2>Insira o Código do seu Cartão</h2>
+            <input class="inputs" type="text" placeholder="Insira o código do Cartão"><br><br>
+            <a href="pago.html">Pagar</a><br>
+        </form>
+        </div>
+        <footer>
+            <h4>Lojas online</h4>
+            <h4>Segurança na sua compra</h4>
+            <h5>Aceitamos bandeiras visa, elo, hipercard, cielo, mastercard</h5>
+            
+        </footer>
+        <a href="projetos.html">Voltar no início</a>
+    </div>
+</body>
+</html>

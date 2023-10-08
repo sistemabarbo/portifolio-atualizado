@@ -1,0 +1,98 @@
+.principal {
+    background-color: rgb(36, 36, 37);
+    width: 60%;
+    height: 650px;
+    border: 4px solid rgb(230, 7, 174);
+    margin: auto;
+    text-align: center;
+}
+.img {
+    width: 120px;
+    height: 120px;
+    border: 3px solid rgb(30, 5, 252);
+    border-radius: 50%;
+    margin-top: 100px;
+}
+h2 {
+    color: aliceblue;
+}
+h3 {
+    color: beige;
+}
+.onetwo {
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    height: 50px;
+}
+.one {
+    flex: 50%;
+    background: blue;
+    width: 50%;
+    border: 2px solid red;
+    cursor: pointer;
+    font-size: 25px;
+    color: wheat;
+}
+.one:hover {
+    background: rgb(158, 172, 189);
+}
+.two {
+    flex: 50%;
+    background: blue;
+    width: 50%;
+    border: 2px solid red;
+    cursor: pointer;
+    font-size: 25px;
+    color: wheat;
+}
+.two:hover {
+    background: rgb(158, 172, 189);
+}
+.especial {
+    color: rgb(18, 238, 18);
+}
+p {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: bold;
+}
+@media (max-width: 600px) {
+    .principal {
+    width: 100%;
+    height: 800px;
+}
+.one {
+    font-size: 14px;
+}
+.two {
+    font-size: 14px;
+}
+.onetwo {
+    width: 80%;
+}
+p {
+    font-size: 18px;
+}
+}
+.git {
+    width: 60px;
+    height: 70px;
+    flex: 50%;
+    text-align: center;
+
+}
+.imgit{
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+.gitt {
+    flex: 50%;
+}
